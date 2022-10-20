@@ -1,0 +1,39 @@
+@font-face {
+font-family: "baskervol";
+src: url("fonts/BBBBaskervvol-Base.otf") format("opentype");
+}
+
+
+@font-face {
+font-family: "gaillard";
+src: url("fonts/GalliardStd-Roman.otf") format("opentype");
+}
+
+@font-face {
+font-family: "gaillardItalic";
+src: url("fonts/GalliardStd-Italic.otf") format("opentype");
+}
+
+h1{
+  color: #0000fe;
+  font-family: "baskervol";
+  font-size: 7vw;
+}
+
+label{
+  color: #0000fe;
+  font-family: "gaillard";
+  font-size: 75%;
+
+}
+
+p{
+  color: #0000fe;
+  font-family: "gaillardItalic";
+  font-size: 3vw;
+  width: 75%;
+}
+
+.btn btn-primary{
+  background-color: #0000fe;
+}
